@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ttt.css">
+    <script src="ttt.js" defer></script>
+</head>
+<body>
+    
+    <h1>Tic Tac Toe</h1>
+    <div class="display">
+        <h3></h3>
+        <h2></h2>
+    </div>
+
+    <div class="form">
+        <form class="name" action="">
+            <label for="player1-name">PLAYER 1 NAME</label>
+            <input type="text" id="player1-name" name="player1-name" placeholder="player name" required>
+
+            <label for="player2-name">PLAYER 2 NAME</label>
+            <input type="text" id="player2-name" name="player2-name" placeholder="player name" required>
+
+            <div class="action">
+                <input class="btn" type="submit" value="Start">
+            </div>
+        </form>
+    </div>
+    <div class="gameboard visible">
+        <div class="tile"></div>         <!-- 1 -->
+        <div class="tile"></div>         <!-- 2 -->
+        <div class="tile"></div>         <!-- 3 -->
+        <div class="tile"></div>         <!-- 4 -->
+        <div class="tile"></div>         <!-- 5 -->
+        <div class="tile"></div>         <!-- 6 -->
+        <div class="tile"></div>         <!-- 7 -->
+        <div class="tile"></div>         <!-- 8 -->
+        <div class="tile"></div>         <!-- 9 -->
+    </div>
+    <div class="buttons visible">
+        <button id="reset-btn">Reset</button>
+    </div>
+    <div class="replay-btn">
+        <button id="replay" class="visible">Play again</button>
+    </div>
+</body>
+</html>

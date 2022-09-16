@@ -1,4 +1,4 @@
-Tic Tac Toe game built using HTML, CSS, and Javascript
+Tic Tac Toe, a game project built using HTML, CSS, and Javascript aspart of The Odin Project curriculum
 
 
 # Tic-Tac-Toe![Screenshot from 2022-09-16 07-51-21](https://user-images.githubusercontent.com/70480860/190575118-d1060df3-0b21-4d3e-8a5a-7f575f9ddc49.png)
